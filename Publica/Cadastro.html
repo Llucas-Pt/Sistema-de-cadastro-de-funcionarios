@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Css/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Anton&family=Gaegu&family=Gloria+Hallelujah&family=Nanum+Brush+Script&family=Rubik+Burned&family=Shadows+Into+Light&display=swap');
+      </style>
+    <title>Cadastro de funcionários</title>
+
+</head>
+
+<body>
+
+    <div id="corpo">
+        <div id="lateral">
+            <h2>Sistema de Cadastro</h2>
+            <div id="Home">
+                <br>
+                <a href=""> <img src="./icones/Home.png" alt=""  width="15px" height="15">Home</a>
+                <a id="FuncGet" href="http://localhost:3000/funcionarios.html"> <img src="./icones/comercial.png" alt=""  width="15px" height="15">Funcionários</a>
+
+            </div>
+        </div>
+
+        <br>
+        <div id="SegundoCorpo">
+        <div  id="Cadastro">
+
+            <form id="forme" method="post">
+                <input type="text" name="Nome" id="Nome" placeholder="Nome">
+                <input type="text" name="Sobrenome" id="Sobrenome" placeholder="Sobrenome">
+                <input type="text" name="Cargo" id="Cargo" placeholder="Cargo">
+                <input type="tel" name="Telefone" id="Telefone" placeholder="(xx) xxxxx-xxxx">
+                <input type="date" name="Data" id="Data" placeholder="Data de Nascimento">
+                <input type="email" name="Email" id="Email" placeholder="Email">
+        </form>
+        <br>
+  
+        <div id="botoes">
+        <button type="submit" form="forme" value="Cadastrar">Cadastrar</button> 
+        <button id="BTLimpar">Limpar</button>
+    </div> 
+</div>
+      
+        <br>
+        <div id="funcionarios">
+    
+            <h4>Funcionário</h4>
+                <br>
+            </div>
+        </div>
+    </div>
+</body>
+    <script src="Cadastro.js"></script>
+</html>

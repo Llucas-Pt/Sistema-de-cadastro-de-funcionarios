@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-image: url(../icones/wp8149239-minimalist-landscape-wallpapers.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#corpo {
+    
+display:grid;
+grid-template-columns: repeat(2, 20vw 0vw);
+grid-template-rows: 80% 0vw;
+margin: 5%;
+
+
+
+}
+
+
+#cadastro {
+    border: 1px solid rgba(0, 0, 0, 0.404);
+    width: 70vw;
+    height: 125%;
+    background-color: #f6f4f45e;
+    border-radius: 0px 5px 0px 0px;  
+  
+}   
+
+
+
+#Home{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 25px;
+    padding: 1%;
+    text-decoration: none;
+}
+#Home a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.692);
+
+}
+
+#Home a:hover {
+    color: black;
+}
+
+#Home img {
+    margin-right: 10px;
+    margin-left: 5vw;
+}
+
+
+
+h2{
+    padding-top: 20%;
+    margin-bottom: 100px;
+    color: rgba(255, 255, 255, 0.699);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#lateral {
+    display: flex;
+    flex-direction: column;
+   padding-bottom: 30vh;
+    border-radius: 5px 0px 0px 5px;
+    text-align: center;
+    background-color: #265a77d9;
+    color: rgba(255, 255, 255, 0.849);
+    height: 125%;
+}
+
+
+
+
+
+
+
+p{
+    border: 1px solid rgba(0, 0, 0, 0.404);
+    border-radius: 3px; 
+    margin: 10px;
+    padding: 1%;
+    color: #454d4a;
+}
+
+
+
+
+
+

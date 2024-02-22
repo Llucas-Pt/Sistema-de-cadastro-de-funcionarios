@@ -1,0 +1,277 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-image: url(../icones/wp8149239-minimalist-landscape-wallpapers.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#corpo {  
+display:grid;
+grid-template-columns: repeat(3, 20vw 0vw);
+grid-template-rows: 80vh 0vw;
+margin: 5% 5% 5% 20%;
+}
+
+
+#Cadastro {
+    border: 1px solid rgba(0, 0, 0, 0);
+    width: 70vh;
+    border-radius: 0px 5px 0px 0px;  
+    background-color: #f3ebeb9c;
+
+   
+}
+
+
+#Home{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 25px;
+    padding: 1%;
+    text-decoration: none;
+}
+#Home a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.55);
+
+}
+
+#Home a:hover {
+    color: rgba(14, 13, 13, 0.945);
+}
+
+#Home img {
+    margin-right: 10px;
+    margin-left: 5vw;
+}
+
+#Home h3{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+
+h2{
+    padding-top: 20%;
+    color: rgba(255, 255, 255, 0.699);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#lateral {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(0, 0, 0, 0.048);
+    border-radius: 5px 0px 0px 5px;
+    text-align: center;
+    background-color: #265a77d9;
+    
+}
+
+
+#SegundoCorpo {
+    display: grid;
+    grid-template-rows: 38vh 0vw;
+}
+
+
+
+
+
+#forme{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 5vh;
+    gap: 25px;
+}
+
+#forme input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.404);
+}
+
+
+
+#forme input#Telefone {
+    padding: 5px;
+    
+
+}
+
+
+#botoes {
+    display: flex;
+    justify-content: end;
+    border: none;
+    padding: 10px;
+    
+}
+
+#botoes button{
+    margin: -28px 10px 0px 10px;
+    padding: 10px 20px 10px 20px;
+    background-color: #265a77d9;
+    color: rgb(247, 247, 248);
+    border: none;
+    border-radius: 5px;
+}
+
+#botoes button:hover{
+    background-color: gray;
+    color: black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+
+
+#funcionarios {
+    border: 1px solid rgba(0, 0, 0, 0.404);
+    border-radius: 0px 0px 5px 0px;  
+    background-color: #f3ebeb9c;
+    /*backdrop-filter: blur(16px) saturate(180%);*/
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+
+
+h4 {
+    color: rgb(39 35 35 / 69%);
+    padding: 15px;
+}
+
+#funcionarios div{
+    border: 1px solid rgba(0, 0, 0, 0.404);
+    border-radius: 3px; 
+    margin: 10px;
+    padding: 1%;
+
+
+}
+
+#funcionarios span{
+    padding: 0px 1px;
+    color: #454d4a;
+
+}
+
+
+#funcionarios button{
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    margin-left: 10px;
+
+}
+
+.edit{
+    padding-left: 10px;
+}
+
+.lixo{
+    right: 8%;
+}
+
+#funcionarios span #spanFunc {
+    margin-right: 20px;
+}
+
+
+@media (max-width:1030px){
+    #SegundoCorpo {
+        display: grid;
+        grid-template-rows: 45% 0vw;
+    }
+
+}
+
+@media (max-width:910px) {
+
+}
+
+@media (max-width:821px) {
+    
+    #Home a img{
+        display: none;
+    } 
+
+    #Home {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .edit {
+        position: absolute;
+        right: 11%;
+    }
+
+    
+}
+
+@media (max-width:550px) {
+
+    #forme{
+        display: flex;
+    
+        flex-direction: column;
+
+        margin: 1vh;
+    gap: 20px
+
+    }
+
+    #SegundoCorpo {
+        display: grid;
+        grid-template-rows: 60% 0vw;
+    }
+    
+    h2{
+        font-size: small;
+    }
+
+
+}
+
+@media (max-width:550px) {
+    .edit {
+        position: absolute;
+        right: 13%;
+    }
+
+    #SegundoCorpo {
+        display: grid;
+        grid-template-rows: 65% 0vw;
+    }
+
+    #Home a {
+        font-size: x-small;
+    }
+
+}
+
+
+@media (max-width:375px) {
+    #botoes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 35px;
+
+    }
+
+
+    #SegundoCorpo {
+        display: grid;
+        grid-template-rows: 77% 0vw;
+    }
+}
