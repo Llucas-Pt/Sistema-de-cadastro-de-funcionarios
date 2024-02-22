@@ -18,3 +18,6 @@
 <p>Acesse http://localhost:3000/Cadastro.html para adicionar funcionários e http://localhost:3000/Funcionario.html para visualizar a lista de funcionários cadastrados.</p> </p>
 
 <h3> Este projeto é uma excelente base para aprender sobre desenvolvimento web com Node.js, Express e Sequelize, além de práticas de interação com banco de dados SQL. </h3>
+
+<img> ![image](https://github.com/Llucas-Pt/Sistema-de-cadastro-de-funcionarios/assets/108191836/b08ae796-2ce3-4e24-bb60-41fc55e5c6c5)
+ </img>
